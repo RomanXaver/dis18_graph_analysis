@@ -22,4 +22,6 @@ Graph analysis of a Wikidata graph
 * Erweiterung der Zeitspanne
 * Betrachtung des persönlichen Umfelds (Partner, etc.)
 
+## Flussdiagramm
+
 ![Flussdiagramm](./slides/slide2.jpeg)
