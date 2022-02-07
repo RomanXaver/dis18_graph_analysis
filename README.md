@@ -8,6 +8,7 @@ Graph analysis of a Wikidata graph
 #### Zu berücksichtigende Merkmale
 * Geburtsdatum (P569)
 * Academic Degree (P512)
+** Q189533
 * Father (P22)
 * Mother (P25)
 
