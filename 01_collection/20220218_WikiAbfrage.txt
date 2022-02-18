@@ -1,5 +1,4 @@
-#title:"residence" (P551) of people with property "academic degree" (P512) statements
-#defaultView:Map{"hide":["?coordinates"]}
+#title: property "academic degree" (P512) statements
 SELECT DISTINCT ?person ?value ?valueLabel ?Born ?Mom ?Pa
 WHERE 
 {
