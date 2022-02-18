@@ -1,0 +1,12 @@
+#title:"residence" (P551) of people with property "academic degree" (P512) statements
+#defaultView:Map{"hide":["?coordinates"]}
+SELECT DISTINCT ?person ?value ?valueLabel ?Born ?Mom ?Pa
+WHERE 
+{
+  ?person wdt:P512 ?value ; wdt:P569 ?Born ; wdt:P25 ?Mom ; wdt:P22 ?Pa.
+  FILTER (   YEAR(?Born) > 1450 && YEAR(?Born) < 2000  ).
+  hint:Query hint:optimizer "None".
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+LIMIT 5000
