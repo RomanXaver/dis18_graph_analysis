@@ -1,28 +1,28 @@
 # dis18_graph_analysis
 Graph analysis of a Wikidata graph
 
-## Auswertungsziele
+## Evaluation Object
 
-### 1. Jahresverlauf von Startjahr x bis Zieljahr y. Für jedes Jahr soll eine Prozentuale Aussage getroffen werden können: Wie hoch ist der Anteil an Eltern mit der Ausprägung (Academic Degree) + Kind mit der Ausprägung (Academic Degree)? 
+### 1. Check for a certain time span, if the children of people, who have an academic degree, also have an academic degree. The time span may vary and can be adapted.
 
-#### Zu berücksichtigende Merkmale
-* Geburtsdatum (P569)
+#### Relevant attributes
+* DOB (P569)
 * Academic Degree (P512)
   *  Q189533 
 * Father (P22)
 * Mother (P25)
 
-### 2. Geographische Analyse mithilfe eines Compound annual growth rating (CAGR): Durchschnittliche Veränderung für ausgewählte Länder in der Betrachtung von Startjahr x bis Zieljahr y.
+### 2. Geographical Analyse using the Compound annual growth rating (CAGR): Analyse how this applie in different countries
 
-#### Zu berücksichtigende Merkmale
+#### Relevant attributes
 * Country of citizenship (P27)
 * Place of birth (P19)
 
-### 3. Was wäre interessant, wenn die Zeit für das Projekt ausreicht?
-* Trennung nach Geschlecht
-* Erweiterung der Zeitspanne
-* Betrachtung des persönlichen Umfelds (Partner, etc.)
+### 3. Further analysis if there is time within the project scope
+* Gender
+* Increase time span
+* Check the personal field (e.g. parnter, etc.)
 
-## Flussdiagramm
+## Flow chart
 
-![Flussdiagramm](./slides/slide2.jpeg)
+![Flow chart](./slides/slide2.jpeg)
