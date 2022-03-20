@@ -5,22 +5,21 @@ In this folder we are taking a first look at the data, returned from Awena. Furt
 
 ## Used tools
 
-For extracting data from Wikidata, we use the Awena-Wikidata-Crawler.
+For extracting data from Wikidata, we use the inbuild Wikidata Query Service.
 
-https://github.com/sedthh/awena-wikidata-crawler
-* Version: Original
-* License: GNU General Public License v3.0; https://github.com/sedthh/awena-wikidata-crawler/blob/master/LICENSE
-
-Python
-* Version: 3.9.7
+https://query.wikidata.org/
 
 ## Documentation
 
 ### First Step:
 
 Information ressources:
-* Install Awena on your local computer and run a simple query
-* get a feeling for the data and its format
+* Run some queries to get a feeling for how SPARQL works
+* Get the relevant Data and save it into the according csv files
+
+The queries are saved in the txt file:
+* 20220218_WikiAbfrage.txt
+
 
 ### Goal:
 * Next meeting: **23.03.2022**
@@ -28,3 +27,9 @@ Information ressources:
 * Creating a dataframe and collecting all necessary data
 
 ## Results
+We were able to query for the relevant data and save it into the csv file
+
+Names of the csv files:
+* 20220218_AbfrageAcademic.csv
+* 20220218_AbfrageMom.csv
+* 20220218_AbfragePa.csv
