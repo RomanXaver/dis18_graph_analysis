@@ -33,3 +33,9 @@ Names of the csv files:
 * 20220218_AbfrageAcademic.csv
 * 20220218_AbfrageMom.csv
 * 20220218_AbfragePa.csv
+
+Update 13.04.22
+Merged the SPARQL-Queries into one, using the "OPTIONAL" function.
+Created the new file:
+20220413_SPARQL_ExportV2.csv with around 82.5k entries.
+In the next step we will start examining the data and check, if it is sufficient for our requirements.
