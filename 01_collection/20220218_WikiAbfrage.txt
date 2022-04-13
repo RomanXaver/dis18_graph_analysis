@@ -1,11 +1,12 @@
 #title: property "academic degree" (P512) statements
-SELECT DISTINCT ?person ?value ?valueLabel ?Born ?Mom ?Pa
+SELECT DISTINCT ?person ?value ?valueLabel ?Born ?Mother ?Father
 WHERE 
 {
-  ?person wdt:P512 ?value ; wdt:P569 ?Born ; wdt:P25 ?Mom ; wdt:P22 ?Pa.
-  FILTER (   YEAR(?Born) > 1450 && YEAR(?Born) < 2000  ).
+  ?person wdt:P512 ?value ; wdt:P569 ?Born.
+  OPTIONAL { ?person wdt:P25 ?Mother. }
+  OPTIONAL { ?person wdt:P22 ?Father. }
+  FILTER (   YEAR(?Born) > 1900 && YEAR(?Born) < 2000  ).
   hint:Query hint:optimizer "None".
   
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
 }
-LIMIT 5000
