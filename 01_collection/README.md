@@ -38,5 +38,5 @@ Names of the csv files:
 Merged the SPARQL-Queries into one, using the "OPTIONAL" function.
 
 Created the new file:
-* 20220413_SPARQL_ExportV2.csv with around 82.5k entries.
+* 20220413_SPARQL_ExportV2.csv with around 82.5k entries for the timespan of 1900 to 2000.
 * In the next step we will start examining the data and check, if it is sufficient for our requirements.
