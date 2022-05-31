@@ -25,4 +25,4 @@ Graph analysis of a Wikidata graph
 
 ## Flow chart
 
-![Flow chart](./slides/slide2.jpeg)
+![Flow chart](./slides/flowchart.jpeg)
